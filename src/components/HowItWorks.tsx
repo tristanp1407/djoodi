@@ -1,53 +1,75 @@
-import React from 'react';
-import Section from './ui/Section';
-import { HOW_IT_WORKS_STEPS } from '../utils/constants';
+import React from "react";
+import Section from "./ui/Section";
+import Background from "./ui/Background";
 
 const HowItWorks: React.FC = () => {
-  return (
-    <Section id="how-it-works" background="white">
-      <div className="text-center mb-16">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
-          How It Works
-        </h2>
-        <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-          Our digital loyalty system is designed to be simple to use for both businesses and customers.
-        </p>
-      </div>
+  const steps = [
+    {
+      number: "1",
+      title: "Your stamp card",
+      subtitle: "In their Apple or Google Wallet",
+      image: "/images/hand holding phone.png",
+    },
+    {
+      number: "2",
+      title: "They buy, you scan",
+      subtitle: "In one tap, using our free app.",
+      image: "/images/staff scanning card .png",
+    },
+    {
+      number: "3",
+      title: "They collect stamps",
+      subtitle: "One stamp per visit.",
+      image: "/images/reward screen.png",
+    },
+    {
+      number: "4",
+      title: "You reward them",
+      subtitle: "Everyone loves a discount!",
+      image: "/images/man reciveing free coffee.png",
+    },
+  ];
 
-      <div className="space-y-20 md:space-y-24">
-        {HOW_IT_WORKS_STEPS.map((step, index) => (
-          <div 
-            key={index}
-            className={`flex flex-col ${
-              index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-            } gap-8 md:gap-12 items-center`}
-          >
-            <div className="w-full md:w-1/2">
-              <div className="relative">
-                <div className="absolute -inset-4 bg-gradient-to-r from-orange-200 to-teal-200 rounded-xl opacity-50 blur-md"></div>
-                <div className="relative overflow-hidden rounded-lg shadow-xl">
-                  <img 
-                    src={step.imageUrl} 
-                    alt={step.title} 
-                    className="w-full h-64 md:h-80 object-cover transform transition-transform duration-700 hover:scale-105"
+  return (
+    <Background>
+      <Section id="how-it-works" background="none">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-6xl font-black mb-4 text-white">
+            How It Works
+          </h2>
+          <p className="text-xl text-white/90 max-w-3xl mx-auto">
+            Designed to be simple to use for both your business and your
+            customers.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
+          {steps.map((step) => (
+            <div
+              key={step.number}
+              className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300"
+            >
+              <div className="p-4">
+                <div className="text-5xl font-black text-[#e4646d]/20 mb-2">
+                  {step.number}
+                </div>
+                <div className="flex items-center justify-center mb-2">
+                  <img
+                    src={step.image}
+                    alt={step.title}
+                    className="w-auto h-32 object-contain"
                   />
                 </div>
+                <h3 className="text-xl md:text-2xl font-bold mb-1 mt-5 text-gray-700">
+                  {step.title}
+                </h3>
+                <p className="text-sm text-gray-600">{step.subtitle}</p>
               </div>
             </div>
-            
-            <div className="w-full md:w-1/2">
-              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-orange-100 text-orange-600 font-bold text-xl mb-4">
-                {index + 1}
-              </div>
-              <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                {step.description}
-              </p>
-            </div>
-          </div>
-        ))}
-      </div>
-    </Section>
+          ))}
+        </div>
+      </Section>
+    </Background>
   );
 };
 

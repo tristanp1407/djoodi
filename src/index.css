@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --primary-color: theme('colors.primary.600');
+    --primary-color: #3239fb;
     --accent-color: #fb848c;
   }
 }
@@ -15,10 +15,11 @@ html {
 
 body {
   @apply font-sans text-gray-800 antialiased;
-  background-color: theme('colors.primary.600');
+  background-color: var(--primary-color);
   background-image: url('https://arc.net/noise-light.png');
   background-repeat: repeat;
-  background-size: cover;
+  /* Use default background-size for repeating noise */
+  background-size: auto;
 }
 
 @layer components {

@@ -1,14 +1,12 @@
-import React, { useEffect } from 'react';
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Benefits from './components/Benefits';
-import HowItWorks from './components/HowItWorks';
-import ProfitVisualization from './components/ProfitVisualization';
-import Pricing from './components/Pricing';
-import Setup from './components/Setup';
-import Testimonials from './components/Testimonials';
-import WhyChooseUs from './components/WhyChooseUs';
-import Footer from './components/Footer';
+import { useEffect } from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import HowItWorks from "./components/HowItWorks";
+import UserStats from "./components/UserStats";
+import BusinessExamples from "./components/BusinessExamples";
+import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
+import MarketingCapabilities from "./components/MarketingCapabilities";
 
 function App() {
   // Update page title
@@ -20,13 +18,11 @@ function App() {
     <div className="min-h-screen">
       <Header />
       <Hero />
-      <Benefits />
       <HowItWorks />
-      <ProfitVisualization />
+      <UserStats />
+      <BusinessExamples />
+      <MarketingCapabilities />
       <Pricing />
-      <Setup />
-      <Testimonials />
-      <WhyChooseUs />
       <Footer />
     </div>
   );
