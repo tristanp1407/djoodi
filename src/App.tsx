@@ -6,6 +6,7 @@ import HowItWorks from "./components/HowItWorks";
 import UserStats from "./components/UserStats";
 import BusinessExamples from "./components/BusinessExamples";
 import Pricing from "./components/Pricing";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MarketingCapabilities from "./components/MarketingCapabilities";
 
@@ -27,6 +28,7 @@ function App() {
       <BusinessExamples />
       <MarketingCapabilities />
       <Pricing />
+      <Contact />
       <Footer />
     </div>
   );

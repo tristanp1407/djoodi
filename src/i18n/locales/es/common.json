@@ -46,5 +46,19 @@
     "Precios asequibles: Alto valor, bajo costo—adaptado al tamaño de tu negocio.",
     "Rápido y simple: La configuración toma minutos, los resultados comienzan inmediatamente."
   ],
-  "finalCta": "Prueba Tu Mes Gratis Ahora"
+  "finalCta": "Prueba Tu Mes Gratis Ahora",
+  "contact": {
+    "title": "Ponte en",
+    "titleHighlight": "contacto",
+    "subtitle": "¿Tienes preguntas? Nos encantaría saber de ti.",
+    "name": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "tu@correo.com",
+    "message": "Mensaje",
+    "messagePlaceholder": "¿En qué podemos ayudarte?",
+    "submit": "Enviar mensaje",
+    "successTitle": "¡Gracias!",
+    "successMessage": "Hemos recibido tu mensaje. Te contactaremos pronto."
+  }
 }

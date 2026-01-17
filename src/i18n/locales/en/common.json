@@ -46,5 +46,19 @@
     "Affordable pricing: High-value, low-cost—tailored to your business size.",
     "Quick and simple: Setup takes minutes, results start immediately."
   ],
-  "finalCta": "Try Your Free Month Now"
+  "finalCta": "Try Your Free Month Now",
+  "contact": {
+    "title": "Get in",
+    "titleHighlight": "touch",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "submit": "Send message",
+    "successTitle": "Thank you!",
+    "successMessage": "We've received your message. We'll be in touch soon."
+  }
 }
