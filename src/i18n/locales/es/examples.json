@@ -1,0 +1,50 @@
+{
+  "businesses": [
+    {
+      "id": "coffee-shop",
+      "name": "Cafetería",
+      "icon": "coffee",
+      "program": "Café gratis después de 10 visitas",
+      "averagePrice": "MX$40",
+      "customersMonthly": 100,
+      "extraRevenue": "MX$4,000+",
+      "visitIncrease": {
+        "before": 1.5,
+        "after": 1.8
+      }
+    },
+    {
+      "id": "ice-cream",
+      "name": "Heladería",
+      "icon": "ice-cream",
+      "program": "Bola extra después de 5 visitas",
+      "averagePrice": "MX$50",
+      "customersMonthly": 80,
+      "extraRevenue": "MX$3,200+",
+      "visitIncrease": {
+        "before": 2.0,
+        "after": 2.4
+      }
+    },
+    {
+      "id": "nail-salon",
+      "name": "Salón de Uñas",
+      "icon": "heart",
+      "program": "50% de descuento después de 8 visitas",
+      "averagePrice": "MX$250",
+      "customersMonthly": 40,
+      "extraRevenue": "MX$5,000+",
+      "visitIncrease": {
+        "before": 1.0,
+        "after": 2.0
+      }
+    }
+  ],
+  "labels": {
+    "program": "Programa",
+    "averagePrice": "Precio Promedio",
+    "monthlyCustomers": "Clientes Mensuales",
+    "extraRevenue": "Ingresos Extras",
+    "visitIncrease": "Aumento de Visitas"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "djoodi | Digital Loyalty for Local Businesses",
+    "description": "Boost repeat visits, delight customers, and increase your sales with a simple digital loyalty card"
+  },
+  "nav": {
+    "benefits": "Benefits",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing"
+  },
+  "footer": {
+    "description": "Boost repeat visits, delight customers, and increase your sales with a simple, digital loyalty card—no apps, no hassle.",
+    "copyright": "© {{year}} djoodi. All rights reserved."
+  },
+  "testimonials": {
+    "sectionTitle": "What Our Customers Say",
+    "sectionSubtitle": "Hear from local business owners who've transformed their customer loyalty.",
+    "items": [
+      {
+        "quote": "We saw immediate results—customers visit more and spend more each visit. The setup was incredibly easy!",
+        "author": "Ana",
+        "position": "Café Owner in Roma Norte"
+      },
+      {
+        "quote": "Our clients love how simple it is. We've boosted repeat appointments dramatically!",
+        "author": "Luis",
+        "position": "Salon Owner in Condesa"
+      },
+      {
+        "quote": "This loyalty program paid for itself in the first month. Our customers are happier and returning more often.",
+        "author": "Maria",
+        "position": "Bakery Owner in Polanco"
+      }
+    ]
+  },
+  "setupSteps": [
+    "Create Your Loyalty Offer",
+    "Print Your Branded QR Code",
+    "Train Your Staff (in 10 minutes)",
+    "Start Rewarding & Growing"
+  ],
+  "whyChooseUs": [
+    "No additional apps required: Customer-friendly digital wallet cards.",
+    "Real, measurable growth: Increased visit frequency, higher spend.",
+    "Personalized local support: We're right here in CDMX to help.",
+    "Affordable pricing: High-value, low-cost—tailored to your business size.",
+    "Quick and simple: Setup takes minutes, results start immediately."
+  ],
+  "finalCta": "Try Your Free Month Now"
+}

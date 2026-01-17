@@ -1,45 +1,26 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import Section from "./ui/Section";
 import Background from "./ui/Background";
 
 const HowItWorks: React.FC = () => {
-  const steps = [
-    {
-      number: "1",
-      title: "Your stamp card",
-      subtitle: "In their Apple or Google Wallet",
-      image: "/images/hand holding phone.png",
-    },
-    {
-      number: "2",
-      title: "They buy, you scan",
-      subtitle: "In one tap, using our free app.",
-      image: "/images/staff scanning card .png",
-    },
-    {
-      number: "3",
-      title: "They collect stamps",
-      subtitle: "One stamp per visit.",
-      image: "/images/reward screen.png",
-    },
-    {
-      number: "4",
-      title: "You reward them",
-      subtitle: "Everyone loves a discount!",
-      image: "/images/man reciveing free coffee.png",
-    },
-  ];
+  const { t } = useTranslation('benefits');
+  const steps = t('howItWorksSection.steps', { returnObjects: true }) as Array<{
+    number: string;
+    title: string;
+    subtitle: string;
+    image: string;
+  }>;
 
   return (
     <Background>
       <Section id="how-it-works" background="none">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-6xl font-black mb-4 text-white">
-            How It Works
+            {t('howItWorksSection.title')}
           </h2>
           <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Designed to be simple to use for both your business and your
-            customers.
+            {t('howItWorksSection.subtitle')}
           </p>
         </div>
 

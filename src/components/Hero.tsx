@@ -1,8 +1,9 @@
 import React from "react";
-import { HERO_SUBTITLE, HERO_TITLE } from "../utils/constants";
+import { useTranslation } from "react-i18next";
 
 const Hero: React.FC = () => {
-  const words = HERO_TITLE.split(" ");
+  const { t } = useTranslation('hero');
+  const words = t('title').split(" ");
 
   return (
     <div className="relative h-screen overflow-hidden">
@@ -32,7 +33,7 @@ const Hero: React.FC = () => {
             ))}
           </h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-[450px] mx-auto">
-            {HERO_SUBTITLE}
+            {t('subtitle')}
           </p>
         </div>
       </div>

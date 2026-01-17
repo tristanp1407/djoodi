@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
@@ -9,10 +10,13 @@ import Footer from "./components/Footer";
 import MarketingCapabilities from "./components/MarketingCapabilities";
 
 function App() {
-  // Update page title
+  const { t, i18n } = useTranslation('common');
+
+  // Update page title and HTML lang attribute
   useEffect(() => {
-    document.title = "djoodi | Digital Loyalty for Local Businesses";
-  }, []);
+    document.title = t('meta.title');
+    document.documentElement.lang = i18n.language;
+  }, [t, i18n.language]);
 
   return (
     <div className="min-h-screen">

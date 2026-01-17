@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Container from "./ui/Container";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Nav: React.FC = () => {
+  const { t } = useTranslation('common');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -40,7 +43,7 @@ const Nav: React.FC = () => {
                   href="#benefits"
                   className="text-white hover:text-white/80 transition-colors font-bold"
                 >
-                  Benefits
+                  {t('nav.benefits')}
                 </a>
               </li>
               <li>
@@ -48,7 +51,7 @@ const Nav: React.FC = () => {
                   href="#how-it-works"
                   className="text-white hover:text-white/80 transition-colors font-bold"
                 >
-                  How It Works
+                  {t('nav.howItWorks')}
                 </a>
               </li>
               <li>
@@ -56,11 +59,12 @@ const Nav: React.FC = () => {
                   href="#pricing"
                   className="text-white hover:text-white/80 transition-colors font-bold"
                 >
-                  Pricing
+                  {t('nav.pricing')}
                 </a>
               </li>
             </ul>
           </nav>
+          <LanguageSwitcher />
         </div>
 
         <button
@@ -83,7 +87,7 @@ const Nav: React.FC = () => {
                     className="block py-2 text-white hover:text-white/80 transition-colors font-semibold"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Benefits
+                    {t('nav.benefits')}
                   </a>
                 </li>
                 <li>
@@ -92,7 +96,7 @@ const Nav: React.FC = () => {
                     className="block py-2 text-white hover:text-white/80 transition-colors font-semibold"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    How It Works
+                    {t('nav.howItWorks')}
                   </a>
                 </li>
                 <li>
@@ -101,8 +105,11 @@ const Nav: React.FC = () => {
                     className="block py-2 text-white hover:text-white/80 transition-colors font-semibold"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Pricing
+                    {t('nav.pricing')}
                   </a>
+                </li>
+                <li className="pt-2 border-t border-white/20">
+                  <LanguageSwitcher />
                 </li>
               </ul>
             </nav>

@@ -1,0 +1,22 @@
+{
+  "sectionTitle": "Keep your customers engaged",
+  "sectionSubtitle": "Connect with your customers like never before",
+  "capabilities": [
+    {
+      "title": "Build Your Customer List",
+      "subtitle": "Customers enter their email to get their loyalty card. (They can easily opt out of marketing emails.)"
+    },
+    {
+      "title": "Announce New Products",
+      "subtitle": "Email your customers instantly when new items arrive, getting them excited and ready to shop!"
+    },
+    {
+      "title": "Send Reminders & Offers",
+      "subtitle": "Trigger push notifications when customers are nearby: \"You're 2 stamps away from your free coffee!\""
+    },
+    {
+      "title": "Understand Your Customers",
+      "subtitle": "Your analytics dashboard shows busiest days, peak hours, retention rates, and more—helping you boost sales."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sectionTitle": "Asequible para Cualquier",
+  "sectionTitleHighlight": "Tamaño",
+  "sectionTitleEnd": "de Negocio",
+  "sectionSubtitle": "Elige el plan que funciona mejor para las",
+  "sectionSubtitleHighlight": "necesidades y presupuesto de tu negocio.",
+  "specialOffer": "Oferta Especial: ¡Paga anualmente y obtén 2 meses gratis!",
+  "recommended": "Recomendado",
+  "plans": {
+    "starter": {
+      "name": "Plan Inicial",
+      "price": "MX$450/mes",
+      "description": "Perfecto para negocios de una sola ubicación",
+      "cta": "Comenzar",
+      "features": [
+        "Tarjeta de lealtad de marca en billeteras de teléfono del cliente",
+        "Aplicación gratuita para el personal para escanear códigos QR",
+        "Asistencia de configuración fácil",
+        "Sellos de cliente ilimitados",
+        "Una sola ubicación de tienda",
+        "Soporte ilimitado",
+        "Sin recopilación de correo electrónico del cliente",
+        "Sin marketing por correo electrónico",
+        "Sin notificaciones push",
+        "Sin panel de análisis de clientes"
+      ]
+    },
+    "growth": {
+      "name": "Plan de Crecimiento",
+      "price": "MX$900/mes",
+      "description": "Ideal para negocios de múltiples ubicaciones",
+      "cta": "Actualizar Ahora",
+      "features": [
+        "Tarjeta de lealtad de marca en billeteras de teléfono del cliente",
+        "Aplicación gratuita para el personal para escanear códigos QR",
+        "Asistencia de configuración fácil",
+        "Sellos de cliente ilimitados",
+        "Hasta 10 ubicaciones de tienda",
+        "Soporte ilimitado",
+        "Recopilación de correo electrónico del cliente",
+        "Marketing por correo electrónico",
+        "Notificaciones push",
+        "Panel de análisis de clientes (horarios populares, días más concurridos, tasas de retención)"
+      ]
+    }
+  }
+}

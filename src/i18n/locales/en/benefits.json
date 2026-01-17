@@ -1,0 +1,105 @@
+{
+  "benefits": [
+    {
+      "title": "Powerful Digital Loyalty Schemes",
+      "description": "Easy as paper, but smarter. Customers keep a digital card in their Apple or Google Wallet—no apps to download.",
+      "icon": "wallet"
+    },
+    {
+      "title": "Instant Rewards",
+      "description": "One quick scan by staff at checkout—customers earn digital stamps effortlessly.",
+      "icon": "scan-line"
+    },
+    {
+      "title": "Increased Customer Frequency",
+      "description": "Proven to boost return visits by up to 20% with targeted rewards.",
+      "icon": "repeat"
+    },
+    {
+      "title": "Know Your Regulars",
+      "description": "See exactly how often customers visit and what they love most.",
+      "icon": "user-heart"
+    },
+    {
+      "title": "Hands-Free Marketing",
+      "description": "Automatically send messages or special offers to bring customers back.",
+      "icon": "megaphone"
+    },
+    {
+      "title": "Real Results",
+      "description": "Businesses typically see loyalty members spending 20% more per visit.",
+      "icon": "trending-up"
+    }
+  ],
+  "howItWorks": [
+    {
+      "title": "Sign Up in Seconds",
+      "description": "Customers scan your branded QR code at checkout and instantly add a digital loyalty card to their phone's wallet.",
+      "imageUrl": "https://images.pexels.com/photos/13458334/pexels-photo-13458334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "title": "Easy Digital Stamping",
+      "description": "Staff scan customer's QR card with our simple app—just a single tap. Visits are recorded instantly.",
+      "imageUrl": "https://images.pexels.com/photos/6804080/pexels-photo-6804080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "title": "Reward Your Regulars",
+      "description": "Customers automatically receive notifications when rewards are ready, boosting repeat visits and loyalty effortlessly.",
+      "imageUrl": "https://images.pexels.com/photos/5384423/pexels-photo-5384423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ],
+  "howItWorksSection": {
+    "title": "How It Works",
+    "subtitle": "Designed to be simple to use for both your business and your customers.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Your stamp card",
+        "subtitle": "In their Apple or Google Wallet",
+        "image": "/images/hand holding phone.png"
+      },
+      {
+        "number": "2",
+        "title": "They buy, you scan",
+        "subtitle": "In one tap, using our free app.",
+        "image": "/images/staff scanning card .png"
+      },
+      {
+        "number": "3",
+        "title": "They collect stamps",
+        "subtitle": "One stamp per visit.",
+        "image": "/images/reward screen.png"
+      },
+      {
+        "number": "4",
+        "title": "You reward them",
+        "subtitle": "Everyone loves a discount!",
+        "image": "/images/man reciveing free coffee.png"
+      }
+    ]
+  },
+  "userStatsSection": {
+    "title": "Customers",
+    "titleHighlight": "love",
+    "titleEnd": "a loyalty scheme",
+    "subtitle": "Big brands have loyalty programs—now",
+    "subtitleHighlight": "small businesses can too.",
+    "stats": [
+      {
+        "image": "/images/people queuing for ice cream.png",
+        "title": "Loyal Customers Stick Around",
+        "description": "83% of consumers say a loyalty program makes them more likely to keep buying from a brand. Build customer habits that last."
+      },
+      {
+        "image": "/images/coffee cup graph.png",
+        "title": "Small Gains, Big Impact",
+        "description": "Just a 5% increase in retention can boost your profits by up to 95%. Loyalty pays off—literally."
+      },
+      {
+        "image": "/images/woman laid back in spa.png",
+        "title": "More Visits, More Sales",
+        "description": "Businesses using loyalty tools with Square see a 40% increase in repeat visits. Give people a reason to come back."
+      }
+    ]
+  }
+}

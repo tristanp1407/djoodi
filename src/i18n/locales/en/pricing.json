@@ -1,0 +1,47 @@
+{
+  "sectionTitle": "Affordable for Any",
+  "sectionTitleHighlight": "Size",
+  "sectionTitleEnd": "Business",
+  "sectionSubtitle": "Choose the plan that works best for your",
+  "sectionSubtitleHighlight": "business needs and budget.",
+  "specialOffer": "Special Offer: Pay annually and get 2 months free!",
+  "recommended": "Recommended",
+  "plans": {
+    "starter": {
+      "name": "Starter Plan",
+      "price": "MX$450/month",
+      "description": "Perfect for single-location businesses",
+      "cta": "Get Started",
+      "features": [
+        "Branded loyalty card in customer phone wallets",
+        "Free staff app to scan QR codes",
+        "Easy setup assistance",
+        "Unlimited customer stamps",
+        "Single store location",
+        "Unlimited support",
+        "No customer email collection",
+        "No email marketing",
+        "No push notifications",
+        "No customer analytics dashboard"
+      ]
+    },
+    "growth": {
+      "name": "Growth Plan",
+      "price": "MX$900/month",
+      "description": "Ideal for multi-location businesses",
+      "cta": "Upgrade Now",
+      "features": [
+        "Branded loyalty card in customer phone wallets",
+        "Free staff app to scan QR codes",
+        "Easy setup assistance",
+        "Unlimited customer stamps",
+        "Up to 10 store locations",
+        "Unlimited support",
+        "Customer email collection",
+        "Email marketing",
+        "Push notifications",
+        "Customer analytics dashboard (popular times, busiest days, retention rates)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "benefits": [
+    {
+      "title": "Programas de Lealtad Digital Poderosos",
+      "description": "Fácil como el papel, pero más inteligente. Los clientes guardan una tarjeta digital en su Apple o Google Wallet—sin aplicaciones que descargar.",
+      "icon": "wallet"
+    },
+    {
+      "title": "Recompensas Instantáneas",
+      "description": "Un escaneo rápido del personal en la caja—los clientes ganan sellos digitales sin esfuerzo.",
+      "icon": "scan-line"
+    },
+    {
+      "title": "Mayor Frecuencia de Clientes",
+      "description": "Comprobado para aumentar las visitas de regreso hasta un 20% con recompensas dirigidas.",
+      "icon": "repeat"
+    },
+    {
+      "title": "Conoce a Tus Clientes Regulares",
+      "description": "Ve exactamente con qué frecuencia visitan los clientes y qué es lo que más aman.",
+      "icon": "user-heart"
+    },
+    {
+      "title": "Marketing sin Manos",
+      "description": "Envía automáticamente mensajes u ofertas especiales para traer de vuelta a los clientes.",
+      "icon": "megaphone"
+    },
+    {
+      "title": "Resultados Reales",
+      "description": "Los negocios típicamente ven a los miembros de lealtad gastar un 20% más por visita.",
+      "icon": "trending-up"
+    }
+  ],
+  "howItWorks": [
+    {
+      "title": "Regístrate en Segundos",
+      "description": "Los clientes escanean tu código QR de marca en la caja y agregan instantáneamente una tarjeta de lealtad digital a la billetera de su teléfono.",
+      "imageUrl": "https://images.pexels.com/photos/13458334/pexels-photo-13458334.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "title": "Sellado Digital Fácil",
+      "description": "El personal escanea la tarjeta QR del cliente con nuestra aplicación simple—solo un toque. Las visitas se registran instantáneamente.",
+      "imageUrl": "https://images.pexels.com/photos/6804080/pexels-photo-6804080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+      "title": "Recompensa a Tus Clientes Regulares",
+      "description": "Los clientes reciben automáticamente notificaciones cuando las recompensas están listas, aumentando las visitas repetidas y la lealtad sin esfuerzo.",
+      "imageUrl": "https://images.pexels.com/photos/5384423/pexels-photo-5384423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  ],
+  "howItWorksSection": {
+    "title": "Cómo Funciona",
+    "subtitle": "Diseñado para ser simple de usar tanto para tu negocio como para tus clientes.",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Tu tarjeta de sellos",
+        "subtitle": "En su Apple o Google Wallet",
+        "image": "/images/hand holding phone.png"
+      },
+      {
+        "number": "2",
+        "title": "Compran, tú escaneas",
+        "subtitle": "En un toque, usando nuestra aplicación gratuita.",
+        "image": "/images/staff scanning card .png"
+      },
+      {
+        "number": "3",
+        "title": "Coleccionan sellos",
+        "subtitle": "Un sello por visita.",
+        "image": "/images/reward screen.png"
+      },
+      {
+        "number": "4",
+        "title": "Los recompensas",
+        "subtitle": "¡A todos les encanta un descuento!",
+        "image": "/images/man reciveing free coffee.png"
+      }
+    ]
+  },
+  "userStatsSection": {
+    "title": "A los clientes les",
+    "titleHighlight": "encanta",
+    "titleEnd": "un programa de lealtad",
+    "subtitle": "Las grandes marcas tienen programas de lealtad—ahora",
+    "subtitleHighlight": "las pequeñas empresas también pueden.",
+    "stats": [
+      {
+        "image": "/images/people queuing for ice cream.png",
+        "title": "Los Clientes Leales Se Quedan",
+        "description": "El 83% de los consumidores dice que un programa de lealtad los hace más propensos a seguir comprando de una marca. Construye hábitos de cliente que duran."
+      },
+      {
+        "image": "/images/coffee cup graph.png",
+        "title": "Pequeñas Ganancias, Gran Impacto",
+        "description": "Solo un aumento del 5% en retención puede aumentar tus ganancias hasta un 95%. La lealtad paga—literalmente."
+      },
+      {
+        "image": "/images/woman laid back in spa.png",
+        "title": "Más Visitas, Más Ventas",
+        "description": "Los negocios que usan herramientas de lealtad con Square ven un aumento del 40% en visitas repetidas. Dale a la gente una razón para volver."
+      }
+    ]
+  }
+}
