@@ -1,18 +1,18 @@
-import esCommon from './locales/es/common.json';
-import esHero from './locales/es/hero.json';
-import esBenefits from './locales/es/benefits.json';
-import esPricing from './locales/es/pricing.json';
-import esExamples from './locales/es/examples.json';
-import esMarketing from './locales/es/marketing.json';
+import enCommon from './locales/en/common.json';
+import enHero from './locales/en/hero.json';
+import enBenefits from './locales/en/benefits.json';
+import enPricing from './locales/en/pricing.json';
+import enExamples from './locales/en/examples.json';
+import enMarketing from './locales/en/marketing.json';
 
-// Generate types from Spanish (default) translations
+// Generate types from English (default) translations
 export interface Resources {
-  common: typeof esCommon;
-  hero: typeof esHero;
-  benefits: typeof esBenefits;
-  pricing: typeof esPricing;
-  examples: typeof esExamples;
-  marketing: typeof esMarketing;
+  common: typeof enCommon;
+  hero: typeof enHero;
+  benefits: typeof enBenefits;
+  pricing: typeof enPricing;
+  examples: typeof enExamples;
+  marketing: typeof enMarketing;
 }
 
 declare module 'i18next' {
