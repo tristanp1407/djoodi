@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
       <Container>
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center mb-6">
-            <span className="font-black text-4xl text-primary">djoodi</span>
+            <span className="font-black text-4xl text-primary">yoodi</span>
           </div>
           <p className="text-gray-400 max-w-md mb-8">
             {t('footer.description')}

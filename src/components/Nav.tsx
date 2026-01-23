@@ -32,7 +32,7 @@ const Nav: React.FC = () => {
     >
       <Container className="flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="font-black text-4xl text-white">djoodi</span>
+          <span className="font-black text-4xl text-white">yoodi</span>
         </div>
 
         <div className="hidden md:flex items-center gap-8">

@@ -10,7 +10,7 @@ function TestPage() {
     setError(null);
     setLoading(true);
     try {
-      const url = `https://us-central1-djoodi.cloudfunctions.net/issuerApi/v1/passes`;
+      const url = `https://us-central1-yoodi.cloudfunctions.net/issuerApi/v1/passes`;
       const res = await fetch(url, { method: "GET" });
 
       const text = await res.text();

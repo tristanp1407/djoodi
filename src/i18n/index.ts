@@ -44,7 +44,7 @@ i18n
     detection: {
       order: ['localStorage', 'navigator'], // localStorage first, then browser
       caches: ['localStorage'], // Store preference in localStorage
-      lookupLocalStorage: 'djoodi_language',
+      lookupLocalStorage: 'yoodi_language',
     },
 
     interpolation: {
