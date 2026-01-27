@@ -1,5 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import Section from "./ui/Section";
 import Background from "./ui/Background";
 
@@ -35,9 +37,10 @@ const HowItWorks: React.FC = () => {
                   {step.number}
                 </div>
                 <div className="flex items-center justify-center mb-2">
-                  <img
+                  <LazyLoadImage
                     src={step.image}
                     alt={step.title}
+                    effect="blur"
                     className="w-auto h-32 object-contain"
                   />
                 </div>

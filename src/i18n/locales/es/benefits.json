@@ -56,25 +56,25 @@
         "number": "1",
         "title": "Tu tarjeta de sellos",
         "subtitle": "En su Apple o Google Wallet",
-        "image": "/images/hand holding phone.png"
+        "image": "/images/hand holding phone.webp"
       },
       {
         "number": "2",
         "title": "Compran, tú escaneas",
         "subtitle": "En un toque, usando nuestra aplicación gratuita.",
-        "image": "/images/staff scanning card .png"
+        "image": "/images/staff scanning card .webp"
       },
       {
         "number": "3",
         "title": "Coleccionan sellos",
         "subtitle": "Un sello por visita.",
-        "image": "/images/reward screen.png"
+        "image": "/images/reward screen.webp"
       },
       {
         "number": "4",
         "title": "Los recompensas",
         "subtitle": "¡A todos les encanta un descuento!",
-        "image": "/images/man reciveing free coffee.png"
+        "image": "/images/man reciveing free coffee.webp"
       }
     ]
   },
@@ -86,17 +86,17 @@
     "subtitleHighlight": "las pequeñas empresas también pueden.",
     "stats": [
       {
-        "image": "/images/people queuing for ice cream.png",
+        "image": "/images/people queuing for ice cream.webp",
         "title": "Los Clientes Leales Se Quedan",
         "description": "El 83% de los consumidores dice que un programa de lealtad los hace más propensos a seguir comprando de una marca. Construye hábitos de cliente que duran."
       },
       {
-        "image": "/images/coffee cup graph.png",
+        "image": "/images/coffee cup graph.webp",
         "title": "Pequeñas Ganancias, Gran Impacto",
         "description": "Solo un aumento del 5% en retención puede aumentar tus ganancias hasta un 95%. La lealtad paga—literalmente."
       },
       {
-        "image": "/images/woman laid back in spa.png",
+        "image": "/images/woman laid back in spa.webp",
         "title": "Más Visitas, Más Ventas",
         "description": "Los negocios que usan herramientas de lealtad con Square ven un aumento del 40% en visitas repetidas. Dale a la gente una razón para volver."
       }

@@ -56,25 +56,25 @@
         "number": "1",
         "title": "Your stamp card",
         "subtitle": "In their Apple or Google Wallet",
-        "image": "/images/hand holding phone.png"
+        "image": "/images/hand holding phone.webp"
       },
       {
         "number": "2",
         "title": "They buy, you scan",
         "subtitle": "In one tap, using our free app.",
-        "image": "/images/staff scanning card .png"
+        "image": "/images/staff scanning card .webp"
       },
       {
         "number": "3",
         "title": "They collect stamps",
         "subtitle": "One stamp per visit.",
-        "image": "/images/reward screen.png"
+        "image": "/images/reward screen.webp"
       },
       {
         "number": "4",
         "title": "You reward them",
         "subtitle": "Everyone loves a discount!",
-        "image": "/images/man reciveing free coffee.png"
+        "image": "/images/man reciveing free coffee.webp"
       }
     ]
   },
@@ -86,17 +86,17 @@
     "subtitleHighlight": "small businesses can too.",
     "stats": [
       {
-        "image": "/images/people queuing for ice cream.png",
+        "image": "/images/people queuing for ice cream.webp",
         "title": "Loyal Customers Stick Around",
         "description": "83% of consumers say a loyalty program makes them more likely to keep buying from a brand. Build customer habits that last."
       },
       {
-        "image": "/images/coffee cup graph.png",
+        "image": "/images/coffee cup graph.webp",
         "title": "Small Gains, Big Impact",
         "description": "Just a 5% increase in retention can boost your profits by up to 95%. Loyalty pays off—literally."
       },
       {
-        "image": "/images/woman laid back in spa.png",
+        "image": "/images/woman laid back in spa.webp",
         "title": "More Visits, More Sales",
         "description": "Businesses using loyalty tools with Square see a 40% increase in repeat visits. Give people a reason to come back."
       }

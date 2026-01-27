@@ -1,5 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import SectionWrapper from "./ui/SectionWrapper";
 
 const UserStats: React.FC = () => {
@@ -34,14 +36,14 @@ const UserStats: React.FC = () => {
             key={index}
             className="bg-white rounded-lg p-6 shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1 flex flex-col"
           >
-            <div className="flex-none ml-0 mr-auto">
-              <div className="h-[150px] w-full flex items-center justify-center mb-6">
-                <img
-                  src={stat.image}
-                  alt={stat.title}
-                  className="max-h-full max-w-full object-contain mx-auto"
-                />
-              </div>
+            <div className="h-[150px] w-full flex items-center justify-center mb-6 overflow-hidden">
+              <LazyLoadImage
+                src={stat.image}
+                alt={stat.title}
+                effect="blur"
+                wrapperClassName="flex items-center justify-center w-full h-full"
+                className="max-h-full max-w-full object-contain"
+              />
             </div>
             <div className="flex flex-col text-left">
               <h3 className="text-xl md:text-2xl font-black mb-3 text-primary">
