@@ -58,6 +58,8 @@
     "message": "Mensaje",
     "messagePlaceholder": "¿En qué podemos ayudarte?",
     "submit": "Enviar mensaje",
+    "submitting": "Enviando...",
+    "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
     "successTitle": "¡Gracias!",
     "successMessage": "Hemos recibido tu mensaje. Te contactaremos pronto."
   }

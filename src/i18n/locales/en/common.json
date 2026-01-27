@@ -58,6 +58,8 @@
     "message": "Message",
     "messagePlaceholder": "How can we help you?",
     "submit": "Send message",
+    "submitting": "Sending...",
+    "errorMessage": "Something went wrong. Please try again.",
     "successTitle": "Thank you!",
     "successMessage": "We've received your message. We'll be in touch soon."
   }
