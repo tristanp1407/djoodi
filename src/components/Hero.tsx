@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 
 const Hero: React.FC = () => {
   const { t } = useTranslation('hero');
-  const words = t('title').split(" ");
 
   return (
     <div className="relative h-screen overflow-hidden">
@@ -13,24 +12,12 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 h-full flex items-center">
-        <div className="max-w-xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-black mb-10 leading-[1.4] text-white">
-            {words.map((word, index) => (
-              <React.Fragment key={index}>
-                {[0, 1, 4, 5].includes(index) ? (
-                  <span
-                    className={`text-secondary ${
-                      index === 4 ? "font-thin" : ""
-                    }`}
-                  >
-                    {word}
-                  </span>
-                ) : (
-                  <span className={index === 2 ? "font-thin" : ""}>{word}</span>
-                )}
-                {index === 1 ? <br /> : index < words.length - 1 && " "}
-              </React.Fragment>
-            ))}
+            <span className="text-secondary">{t('titleHighlight')}</span>
+            <br />
+            <span className="font-thin">{t('titleThin')}</span>{' '}
+            {t('titleEnd')}
           </h1>
           <p className="text-xl md:text-2xl text-white/90 max-w-[450px] mx-auto">
             {t('subtitle')}
