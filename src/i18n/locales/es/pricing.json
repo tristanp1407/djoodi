@@ -1,46 +1,46 @@
 {
-  "sectionTitle": "Asequible para Cualquier",
+  "sectionTitle": "Planes para Cualquier",
   "sectionTitleHighlight": "Tamaño",
   "sectionTitleEnd": "de Negocio",
-  "sectionSubtitle": "Elige el plan que funciona mejor para las",
+  "sectionSubtitle": "Elige el plan que mejor se adapte a las",
   "sectionSubtitleHighlight": "necesidades y presupuesto de tu negocio.",
-  "specialOffer": "Oferta Especial: ¡Paga anualmente y obtén 2 meses gratis!",
+  "specialOffer": "Oferta Especial: Paga anual y te regalamos 2 meses.",
   "recommended": "Recomendado",
   "plans": {
     "starter": {
-      "name": "Plan Inicial",
+      "name": "Plan Básico",
       "price": "MX$450/mes",
-      "description": "Perfecto para negocios de una sola ubicación",
-      "cta": "Comenzar",
+      "description": "Ideal si tienes una sola sucursal",
+      "cta": "Empezar",
       "features": [
-        "Tarjeta de lealtad de marca en billeteras de teléfono del cliente",
-        "Aplicación gratuita para el personal para escanear códigos QR",
-        "Asistencia de configuración fácil",
-        "Sellos de cliente ilimitados",
-        "Una sola ubicación de tienda",
+        "Tarjeta de lealtad con tu marca en la wallet del celular",
+        "App gratuita para que tu equipo escanee códigos QR",
+        "Te ayudamos a configurarlo",
+        "Sellos ilimitados",
+        "Una sucursal",
         "Soporte ilimitado",
-        "Sin recopilación de correo electrónico del cliente",
-        "Sin marketing por correo electrónico",
+        "Sin recopilación de correos",
+        "Sin email marketing",
         "Sin notificaciones push",
-        "Sin panel de análisis de clientes"
+        "Sin panel de análisis"
       ]
     },
     "growth": {
-      "name": "Plan de Crecimiento",
+      "name": "Plan Crecimiento",
       "price": "MX$900/mes",
-      "description": "Ideal para negocios de múltiples ubicaciones",
-      "cta": "Actualizar Ahora",
+      "description": "Para negocios con varias sucursales",
+      "cta": "Elegir Este Plan",
       "features": [
-        "Tarjeta de lealtad de marca en billeteras de teléfono del cliente",
-        "Aplicación gratuita para el personal para escanear códigos QR",
-        "Asistencia de configuración fácil",
-        "Sellos de cliente ilimitados",
-        "Hasta 10 ubicaciones de tienda",
+        "Tarjeta de lealtad con tu marca en la wallet del celular",
+        "App gratuita para que tu equipo escanee códigos QR",
+        "Te ayudamos a configurarlo",
+        "Sellos ilimitados",
+        "Hasta 10 sucursales",
         "Soporte ilimitado",
-        "Recopilación de correo electrónico del cliente",
-        "Marketing por correo electrónico",
+        "Recopilación de correos de clientes",
+        "Email marketing",
         "Notificaciones push",
-        "Panel de análisis de clientes (horarios populares, días más concurridos, tasas de retención)"
+        "Panel de análisis (horarios con más tráfico, días fuertes, tasas de retorno)"
       ]
     }
   }

@@ -1,22 +1,22 @@
 {
-  "sectionTitle": "Mantén a tus clientes comprometidos",
-  "sectionSubtitle": "Conecta con tus clientes como nunca antes",
+  "sectionTitle": "Que tus clientes siempre regresen",
+  "sectionSubtitle": "Conecta con ellos como nunca antes",
   "capabilities": [
     {
-      "title": "Construye Tu Lista de Clientes",
-      "subtitle": "Los clientes ingresan su correo electrónico para obtener su tarjeta de lealtad. (Pueden optar fácilmente por no recibir correos de marketing.)"
+      "title": "Arma Tu Base de Clientes",
+      "subtitle": "Tus clientes dejan su correo al obtener su tarjeta de lealtad. (Pueden dejar de recibir correos cuando quieran.)"
     },
     {
-      "title": "Anuncia Nuevos Productos",
-      "subtitle": "Envía correos electrónicos instantáneos a tus clientes cuando lleguen nuevos artículos, ¡poniéndolos emocionados y listos para comprar!"
+      "title": "Avisa de Novedades",
+      "subtitle": "Manda un correo al instante cuando tengas productos nuevos y genera expectativa para que vengan a conocerlos."
     },
     {
-      "title": "Envía Recordatorios y Ofertas",
-      "subtitle": "Activa notificaciones push cuando los clientes estén cerca: \"¡Estás a 2 sellos de tu café gratis!\""
+      "title": "Manda Recordatorios y Promos",
+      "subtitle": "Activa notificaciones push cuando tus clientes estén cerca: \"!Te faltan 2 sellos para tu cafe gratis!\""
     },
     {
-      "title": "Comprende a Tus Clientes",
-      "subtitle": "Tu panel de análisis muestra los días más concurridos, las horas pico, las tasas de retención y más—ayudándote a aumentar las ventas."
+      "title": "Conoce a Tu Clientela",
+      "subtitle": "Tu panel te muestra los dias con mas movimiento, horarios pico, tasas de retorno y mas, para que tomes mejores decisiones."
     }
   ]
 }

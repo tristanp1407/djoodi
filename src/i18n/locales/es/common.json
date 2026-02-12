@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Yoodi | Tarjetas de Lealtad Digital para Negocios Locales",
-    "description": "Aumenta las visitas recurrentes, deleita a tus clientes y aumenta tus ventas con una tarjeta de lealtad digital simple"
+    "description": "Haz que tus clientes regresen una y otra vez con una tarjeta de lealtad digital simple y efectiva"
   },
   "nav": {
     "benefits": "Beneficios",
@@ -9,58 +9,58 @@
     "pricing": "Precios"
   },
   "footer": {
-    "description": "Aumenta las visitas recurrentes, deleita a tus clientes y aumenta tus ventas con una tarjeta de lealtad digital simple—sin aplicaciones, sin complicaciones.",
+    "description": "Haz que tus clientes regresen, consiente a tu clientela y aumenta tus ventas con una tarjeta de lealtad digital—sin apps, sin complicaciones.",
     "copyright": "© {{year}} Yoodi. Todos los derechos reservados."
   },
   "testimonials": {
     "sectionTitle": "Lo Que Dicen Nuestros Clientes",
-    "sectionSubtitle": "Escucha de propietarios de negocios locales que han transformado la lealtad de sus clientes.",
+    "sectionSubtitle": "Negocios locales que ya transformaron la relación con sus clientes.",
     "items": [
       {
-        "quote": "Vimos resultados inmediatos—los clientes visitan más y gastan más en cada visita. ¡La configuración fue increíblemente fácil!",
+        "quote": "Los resultados fueron inmediatos: los clientes vienen más seguido y gastan más en cada visita. Además, configurarlo fue facilísimo.",
         "author": "Ana",
         "position": "Dueña de Café en Roma Norte"
       },
       {
-        "quote": "A nuestros clientes les encanta lo simple que es. ¡Hemos aumentado las citas recurrentes dramáticamente!",
+        "quote": "A nuestros clientes les encanta lo sencillo que es. Las citas recurrentes se nos dispararon.",
         "author": "Luis",
         "position": "Dueño de Salón en Condesa"
       },
       {
-        "quote": "Este programa de lealtad se pagó solo en el primer mes. Nuestros clientes están más felices y regresan más seguido.",
+        "quote": "El programa se pagó solo en el primer mes. Nuestros clientes están más contentos y regresan más seguido.",
         "author": "María",
         "position": "Dueña de Panadería en Polanco"
       }
     ]
   },
   "setupSteps": [
-    "Crea Tu Oferta de Lealtad",
-    "Imprime Tu Código QR de Marca",
-    "Capacita a Tu Personal (en 10 minutos)",
-    "Comienza a Recompensar y Crecer"
+    "Crea tu oferta de lealtad",
+    "Imprime tu código QR personalizado",
+    "Capacita a tu equipo (en 10 minutos)",
+    "Empieza a premiar y a crecer"
   ],
   "whyChooseUs": [
-    "No se requieren aplicaciones adicionales: Tarjetas de billetera digital fáciles de usar.",
-    "Crecimiento real y medible: Mayor frecuencia de visitas, mayor gasto.",
-    "Soporte local personalizado: Estamos aquí en CDMX para ayudar.",
-    "Precios asequibles: Alto valor, bajo costo—adaptado al tamaño de tu negocio.",
-    "Rápido y simple: La configuración toma minutos, los resultados comienzan inmediatamente."
+    "Sin apps extra: Tarjetas digitales directo en la wallet del celular.",
+    "Crecimiento real y medible: Más visitas, más gasto por cliente.",
+    "Soporte local y cercano: Estamos aquí en CDMX para ayudarte.",
+    "Precios accesibles: Mucho valor a bajo costo, adaptado al tamaño de tu negocio.",
+    "Rápido y simple: Lo configuras en minutos y empiezas a ver resultados."
   ],
-  "finalCta": "Prueba Tu Mes Gratis Ahora",
+  "finalCta": "Prueba Gratis por un Mes",
   "contact": {
     "title": "Ponte en",
     "titleHighlight": "contacto",
-    "subtitle": "¿Tienes preguntas? Nos encantaría saber de ti.",
+    "subtitle": "¿Tienes dudas? Nos encantaría platicar contigo.",
     "name": "Nombre",
     "namePlaceholder": "Tu nombre",
-    "email": "Correo electrónico",
+    "email": "Correo",
     "emailPlaceholder": "tu@correo.com",
     "message": "Mensaje",
-    "messagePlaceholder": "¿En qué podemos ayudarte?",
+    "messagePlaceholder": "¿En qué te podemos ayudar?",
     "submit": "Enviar mensaje",
     "submitting": "Enviando...",
     "errorMessage": "Algo salió mal. Por favor, inténtalo de nuevo.",
     "successTitle": "¡Gracias!",
-    "successMessage": "Hemos recibido tu mensaje. Te contactaremos pronto."
+    "successMessage": "Recibimos tu mensaje. Te contactamos pronto."
   }
 }
