@@ -10,7 +10,9 @@
   },
   "footer": {
     "description": "Boost repeat visits, delight customers, and increase your sales with a simple, digital loyalty card—no apps, no hassle.",
-    "copyright": "© {{year}} Yoodi. All rights reserved."
+    "copyright": "© {{year}} Yoodi. All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "support": "Support"
   },
   "testimonials": {
     "sectionTitle": "What Our Customers Say",

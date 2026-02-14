@@ -10,7 +10,9 @@
   },
   "footer": {
     "description": "Haz que tus clientes regresen, consiente a tu clientela y aumenta tus ventas con una tarjeta de lealtad digital—sin apps, sin complicaciones.",
-    "copyright": "© {{year}} Yoodi. Todos los derechos reservados."
+    "copyright": "© {{year}} Yoodi. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "support": "Soporte"
   },
   "testimonials": {
     "sectionTitle": "Lo Que Dicen Nuestros Clientes",

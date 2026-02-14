@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soporte | Yoodi</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['"Nunito"', 'sans-serif'] },
+          colors: {
+            primary: { DEFAULT: '#3239fb', text: '#ffffff' },
+            accent: '#fd7780',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-white min-h-screen flex flex-col">
+
+  <header class="bg-primary py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <a href="/" class="font-black text-4xl text-white no-underline">yoodi</a>
+      <a href="/" class="text-white hover:text-white/80 text-sm font-bold no-underline">&larr; Volver al inicio</a>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-1">
+    <h1 class="text-3xl font-bold mb-2">Soporte Yoodi</h1>
+    <p class="text-gray-500 mb-10">Yoodi es una app de gestión de lealtad utilizada por el personal de tiendas para escanear pases de lealtad de clientes, aplicar recompensas y ver la actividad de la tienda.</p>
+
+    <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-10">
+      <p class="text-sm text-blue-800">Si eres cliente con una tarjeta de lealtad, por favor contacta directamente a la tienda que te emitió el pase para preguntas sobre recompensas o tu cuenta.</p>
+    </div>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold mb-3">Soporte para Personal y Negocios</h2>
+      <p class="mb-4">Para ayuda técnica, incorporación o problemas de acceso:</p>
+      <p class="mb-4"><strong>Correo:</strong> <a href="mailto:info@yoodi.co" class="text-primary font-semibold hover:underline">info@yoodi.co</a></p>
+      <p class="mb-2">Por favor incluye:</p>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Nombre de la tienda</li>
+        <li>Tipo de dispositivo (iPhone/iPad)</li>
+        <li>Versión de la app (si la conoces)</li>
+        <li>Descripción del problema</li>
+      </ul>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="text-xl font-bold mb-4">Preguntas Frecuentes</h2>
+
+      <div class="space-y-6">
+        <div>
+          <h3 class="text-lg font-semibold mb-2">No puedo iniciar sesión</h3>
+          <p class="mb-1">Asegúrate de que tu tienda haya creado tu cuenta de personal.</p>
+          <p>Si cambiaste de dispositivo recientemente, cierra sesión y vuelve a iniciar.</p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-2">El escáner no funciona</h3>
+          <p>Revisa los permisos de cámara en Configuración de iOS &rarr; Yoodi &rarr; Cámara.</p>
+        </div>
+
+        <div>
+          <h3 class="text-lg font-semibold mb-2">Las recompensas de un cliente se ven incorrectas</h3>
+          <p class="mb-1">El historial de lealtad se sincroniza automáticamente.</p>
+          <p>Si el problema persiste, contacta a soporte con el identificador de la tarjeta.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="font-black text-2xl" style="color: #3239fb;">yoodi</span>
+      <p class="text-gray-400 text-sm mt-2">&copy; 2026 Yoodi. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-white py-12 relative overflow-hidden">
       <div className="absolute inset-0 bg-noise opacity-10"></div>
-      <Container>
+      <Container className="relative z-10">
         <div className="flex flex-col items-center text-center">
           <div className="flex items-center mb-6">
             <span className="font-black text-4xl text-primary">yoodi</span>
@@ -17,6 +17,14 @@ const Footer: React.FC = () => {
           <p className="text-gray-400 max-w-md mb-8">
             {t('footer.description')}
           </p>
+          <div className="flex gap-4 mb-6">
+            <a href="/privacy" className="text-gray-400 hover:text-white transition-colors text-sm">
+              {t('footer.privacyPolicy')}
+            </a>
+            <a href="/support" className="text-gray-400 hover:text-white transition-colors text-sm">
+              {t('footer.support')}
+            </a>
+          </div>
           <div className="mt-2 pt-4 border-t border-gray-800 text-gray-400 text-sm">
             <p>
               {t('footer.copyright', { year })}
