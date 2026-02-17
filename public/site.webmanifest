@@ -1,0 +1,19 @@
+{
+  "name": "Yoodi",
+  "short_name": "Yoodi",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#3239fb",
+  "background_color": "#3239fb",
+  "display": "standalone"
+}
