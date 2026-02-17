@@ -9,8 +9,11 @@ export default defineConfig({
       name: 'static-pages',
       configureServer(server) {
         server.middlewares.use((req, _res, next) => {
-          if (req.url === '/privacy' || req.url === '/support') {
-            req.url = req.url + '/index.html';
+          // Handle /privacy and /support with or without query parameters
+          if (req.url?.startsWith('/privacy')) {
+            req.url = req.url.replace('/privacy', '/privacy/index.html');
+          } else if (req.url?.startsWith('/support')) {
+            req.url = req.url.replace('/support', '/support/index.html');
           }
           next();
         });
