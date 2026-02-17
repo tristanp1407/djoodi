@@ -190,8 +190,21 @@
 
     // Initialize on page load
     (function() {
-      const savedLang = localStorage.getItem('yoodi_static_language') || 'es';
-      updateLanguage(savedLang);
+      // Get language from URL parameter (?lang=en or ?lang=es)
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlLang = urlParams.get('lang');
+
+      // Priority: URL param > localStorage > default 'es'
+      let lang;
+      if (urlLang === 'en' || urlLang === 'es') {
+        lang = urlLang;
+        // Save to localStorage so toggle button works from this point
+        localStorage.setItem('yoodi_static_language', lang);
+      } else {
+        lang = localStorage.getItem('yoodi_static_language') || 'es';
+      }
+
+      updateLanguage(lang);
     })();
   </script>
 
