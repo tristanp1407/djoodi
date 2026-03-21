@@ -1,0 +1,15 @@
+{
+  "title": "Cuéntanos de tu negocio",
+  "subtitle": "Nos pondremos en contacto contigo pronto.",
+  "companyName": "Nombre de la empresa",
+  "companyNamePlaceholder": "Ej. Café La Esquina",
+  "branches": "Número de sucursales",
+  "branchesPlaceholder": "Ej. 5",
+  "contact": "Email o teléfono de contacto",
+  "contactPlaceholder": "tu@email.com o +52 55 1234 5678",
+  "submit": "Enviar",
+  "submitting": "Enviando...",
+  "successTitle": "¡Mensaje enviado!",
+  "successMessage": "Nuestro equipo se pondrá en contacto contigo pronto.",
+  "errorMessage": "Algo salió mal. Intenta de nuevo."
+}

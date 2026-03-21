@@ -1,0 +1,15 @@
+{
+  "title": "Tell us about your business",
+  "subtitle": "We'll get back to you soon.",
+  "companyName": "Company name",
+  "companyNamePlaceholder": "e.g. Corner Café",
+  "branches": "Number of locations",
+  "branchesPlaceholder": "e.g. 5",
+  "contact": "Contact email or phone",
+  "contactPlaceholder": "you@email.com or +1 555 123 4567",
+  "submit": "Submit",
+  "submitting": "Submitting...",
+  "successTitle": "Message sent!",
+  "successMessage": "Our team will get back to you soon.",
+  "errorMessage": "Something went wrong. Please try again."
+}

@@ -6,10 +6,11 @@
   "sectionSubtitleHighlight": "lo que necesitas.",
   "specialOffer": "Oferta Especial: Paga anual y te regalamos 2 meses.",
   "recommended": "Recomendado",
+  "contactSales": "Habla con ventas",
   "plans": {
     "starter": {
       "name": "Plan Básico",
-      "price": "MX$450/mes",
+      "price": "MX$399/mes",
       "description": "Ideal si tienes una sola sucursal",
       "cta": "Empezar",
       "features": [
@@ -19,28 +20,24 @@
         "Sellos ilimitados",
         "Una sucursal",
         "Soporte ilimitado",
-        "Sin recopilación de correos",
-        "Sin email marketing",
-        "Sin notificaciones push",
-        "Sin panel de análisis"
+        "Notificaciones push",
+        "Panel de análisis"
+      ],
+      "excluded": [
+        "Recopilación de correos de clientes",
+        "Campañas de email marketing"
       ]
     },
-    "growth": {
-      "name": "Plan Crecimiento",
-      "price": "MX$900/mes",
+    "enterprise": {
+      "name": "Plan Empresarial",
+      "price": "Habla con ventas",
       "description": "Para negocios con varias sucursales",
-      "cta": "Elegir Este Plan",
-      "features": [
-        "Tarjeta de lealtad con tu marca en la wallet del celular",
-        "App gratuita para que tu equipo escanee códigos QR",
-        "Te ayudamos a configurarlo",
-        "Sellos ilimitados",
-        "Hasta 10 sucursales",
-        "Soporte ilimitado",
+      "cta": "Contactar ventas",
+      "everythingInBase": "Todo lo del Plan Básico, más:",
+      "extras": [
+        "Múltiples sucursales",
         "Recopilación de correos de clientes",
-        "Email marketing",
-        "Notificaciones push",
-        "Panel de análisis (horarios con más tráfico, días fuertes, tasas de retorno)"
+        "Campañas de email marketing a tus clientes"
       ]
     }
   }

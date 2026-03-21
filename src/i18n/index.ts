@@ -9,6 +9,7 @@ import esBenefits from './locales/es/benefits.json';
 import esPricing from './locales/es/pricing.json';
 import esExamples from './locales/es/examples.json';
 import esMarketing from './locales/es/marketing.json';
+import esEnterpriseModal from './locales/es/enterpriseModal.json';
 
 import enCommon from './locales/en/common.json';
 import enHero from './locales/en/hero.json';
@@ -16,6 +17,7 @@ import enBenefits from './locales/en/benefits.json';
 import enPricing from './locales/en/pricing.json';
 import enExamples from './locales/en/examples.json';
 import enMarketing from './locales/en/marketing.json';
+import enEnterpriseModal from './locales/en/enterpriseModal.json';
 
 const resources = {
   es: {
@@ -25,6 +27,7 @@ const resources = {
     pricing: esPricing,
     examples: esExamples,
     marketing: esMarketing,
+    enterpriseModal: esEnterpriseModal,
   },
   en: {
     common: enCommon,
@@ -33,6 +36,7 @@ const resources = {
     pricing: enPricing,
     examples: enExamples,
     marketing: enMarketing,
+    enterpriseModal: enEnterpriseModal,
   },
 };
 

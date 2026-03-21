@@ -6,10 +6,11 @@
   "sectionSubtitleHighlight": "business needs and budget.",
   "specialOffer": "Special Offer: Pay annually and get 2 months free!",
   "recommended": "Recommended",
+  "contactSales": "Contact Sales",
   "plans": {
     "starter": {
       "name": "Starter Plan",
-      "price": "MX$450/month",
+      "price": "MX$399/month",
       "description": "Perfect for single-location businesses",
       "cta": "Get Started",
       "features": [
@@ -19,28 +20,24 @@
         "Unlimited customer stamps",
         "Single store location",
         "Unlimited support",
-        "No customer email collection",
-        "No email marketing",
-        "No push notifications",
-        "No customer analytics dashboard"
+        "Push notifications",
+        "Analytics dashboard"
+      ],
+      "excluded": [
+        "Customer email collection",
+        "Email marketing campaigns"
       ]
     },
-    "growth": {
-      "name": "Growth Plan",
-      "price": "MX$900/month",
+    "enterprise": {
+      "name": "Enterprise Plan",
+      "price": "Contact Sales",
       "description": "Ideal for multi-location businesses",
-      "cta": "Upgrade Now",
-      "features": [
-        "Branded loyalty card in customer phone wallets",
-        "Free staff app to scan QR codes",
-        "Easy setup assistance",
-        "Unlimited customer stamps",
-        "Up to 10 store locations",
-        "Unlimited support",
+      "cta": "Contact Sales",
+      "everythingInBase": "Everything in the Starter Plan, plus:",
+      "extras": [
+        "Multiple store locations",
         "Customer email collection",
-        "Email marketing",
-        "Push notifications",
-        "Customer analytics dashboard (popular times, busiest days, retention rates)"
+        "Email marketing campaigns to your customers"
       ]
     }
   }
