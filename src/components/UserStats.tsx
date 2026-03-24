@@ -41,6 +41,7 @@ const UserStats: React.FC = () => {
                 src={stat.image}
                 alt={stat.title}
                 effect="blur"
+                threshold={300}
                 wrapperClassName="flex items-center justify-center w-full h-full"
                 className="max-h-full max-w-full object-contain"
               />

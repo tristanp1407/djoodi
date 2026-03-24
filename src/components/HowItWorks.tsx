@@ -41,6 +41,7 @@ const HowItWorks: React.FC = () => {
                     src={step.image}
                     alt={step.title}
                     effect="blur"
+                    threshold={300}
                     className="w-auto h-32 object-contain"
                   />
                 </div>
