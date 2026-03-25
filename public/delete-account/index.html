@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eliminación de Cuenta / Account Deletion | Yoodi</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['"Nunito"', 'sans-serif'] },
+          colors: {
+            primary: { DEFAULT: '#3239fb', text: '#ffffff' },
+            accent: '#fd7780',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-white min-h-screen flex flex-col">
+
+  <header class="bg-primary py-4">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <a href="/" class="font-black text-4xl text-white no-underline">yoodi</a>
+      <div class="flex items-center gap-4">
+        <button id="lang-toggle" onclick="toggleLanguage()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-white hover:bg-white/20 transition-colors">
+          <span id="current-flag" class="text-lg">🇲🇽</span>
+          <span id="current-lang" class="text-sm font-semibold">ES</span>
+        </button>
+        <a href="/" class="text-white hover:text-white/80 text-sm font-bold no-underline">&larr; <span class="lang-es">Volver al inicio</span><span class="lang-en hidden">Back to Home</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-1">
+    <h1 class="text-3xl font-bold mb-8 lang-es">Eliminación de Cuenta</h1>
+    <h1 class="text-3xl font-bold mb-8 lang-en hidden">Account Deletion</h1>
+
+    <!-- SPANISH CONTENT -->
+    <div class="lang-es">
+      <section class="mb-8">
+        <p class="mb-4">Si deseas solicitar la eliminación de tu cuenta y los datos asociados, contáctanos en:</p>
+        <p class="mb-6"><a href="mailto:info@yoodi.co" class="text-primary font-semibold hover:underline text-lg">info@yoodi.co</a></p>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-xl font-bold mb-3">Incluye en tu solicitud:</h2>
+        <ul class="list-disc list-inside space-y-2 mb-4">
+          <li>Tu dirección de correo electrónico registrada en la app</li>
+          <li>El nombre de tu negocio</li>
+          <li>Solicitud de eliminación de cuenta</li>
+        </ul>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-xl font-bold mb-3">¿Qué sucede después?</h2>
+        <ul class="list-disc list-inside space-y-2 mb-4">
+          <li>Tu cuenta y los datos asociados se eliminarán dentro de los 7 días posteriores a la verificación</li>
+          <li>Algunos datos pueden conservarse por motivos legales u operativos (por ejemplo, registros de transacciones), pero no se utilizarán para ningún otro propósito</li>
+        </ul>
+      </section>
+
+      <section class="mb-8 bg-gray-50 rounded-lg p-6">
+        <p class="text-gray-600">Si eres un cliente (usuario de lealtad), por favor contacta al negocio que emitió tu tarjeta de lealtad.</p>
+      </section>
+    </div>
+
+    <!-- ENGLISH CONTENT -->
+    <div class="lang-en hidden">
+      <section class="mb-8">
+        <p class="mb-4">If you would like to request deletion of your account and associated data, please contact us at:</p>
+        <p class="mb-6"><a href="mailto:info@yoodi.co" class="text-primary font-semibold hover:underline text-lg">info@yoodi.co</a></p>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-xl font-bold mb-3">Include in your request:</h2>
+        <ul class="list-disc list-inside space-y-2 mb-4">
+          <li>Your email address used in the app</li>
+          <li>Your business name</li>
+          <li>Request for account deletion</li>
+        </ul>
+      </section>
+
+      <section class="mb-8">
+        <h2 class="text-xl font-bold mb-3">What happens next:</h2>
+        <ul class="list-disc list-inside space-y-2 mb-4">
+          <li>Your account and associated data will be deleted within 7 days of verification</li>
+          <li>Some data may be retained for legal or operational purposes (e.g. transaction logs), but will not be used for any other purpose</li>
+        </ul>
+      </section>
+
+      <section class="mb-8 bg-gray-50 rounded-lg p-6">
+        <p class="text-gray-600">If you are a customer (loyalty user), please contact the business that issued your loyalty card.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="font-black text-2xl" style="color: #3239fb;">yoodi</span>
+      <p class="text-gray-400 text-sm mt-2">&copy; 2026 Yoodi. <span class="lang-es">Todos los derechos reservados.</span><span class="lang-en hidden">All rights reserved.</span></p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleLanguage() {
+      const currentLang = localStorage.getItem('yoodi_static_language') || 'es';
+      const newLang = currentLang === 'es' ? 'en' : 'es';
+
+      localStorage.setItem('yoodi_static_language', newLang);
+      updateLanguage(newLang);
+    }
+
+    function updateLanguage(lang) {
+      const flagEl = document.getElementById('current-flag');
+      const langEl = document.getElementById('current-lang');
+
+      if (lang === 'es') {
+        flagEl.textContent = '🇲🇽';
+        langEl.textContent = 'ES';
+      } else {
+        flagEl.textContent = '🇺🇸';
+        langEl.textContent = 'EN';
+      }
+
+      document.querySelectorAll('.lang-es').forEach(el => {
+        el.classList.toggle('hidden', lang !== 'es');
+      });
+      document.querySelectorAll('.lang-en').forEach(el => {
+        el.classList.toggle('hidden', lang !== 'en');
+      });
+
+      document.documentElement.lang = lang;
+    }
+
+    (function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const urlLang = urlParams.get('lang');
+
+      let lang;
+      if (urlLang === 'en' || urlLang === 'es') {
+        lang = urlLang;
+        localStorage.setItem('yoodi_static_language', lang);
+      } else {
+        lang = localStorage.getItem('yoodi_static_language') || 'es';
+      }
+
+      updateLanguage(lang);
+    })();
+  </script>
+
+</body>
+</html>

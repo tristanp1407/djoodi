@@ -14,6 +14,8 @@ export default defineConfig({
             req.url = req.url.replace('/privacy', '/privacy/index.html');
           } else if (req.url?.startsWith('/support')) {
             req.url = req.url.replace('/support', '/support/index.html');
+          } else if (req.url?.startsWith('/delete-account')) {
+            req.url = req.url.replace('/delete-account', '/delete-account/index.html');
           }
           next();
         });
