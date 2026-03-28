@@ -87,18 +87,18 @@
     "stats": [
       {
         "image": "/images/people queuing for ice cream.webp",
-        "title": "Los Clientes Fieles Se Quedan",
-        "description": "El 83% de los consumidores dice que un programa de lealtad los motiva a seguir comprando en el mismo lugar. Crea hábitos que duran."
+        "title": "El 81% compra más seguido",
+        "description": "Los miembros de un programa de lealtad visitan más y gastan más. No es teoría—son datos reales."
       },
       {
         "image": "/images/coffee cup graph.webp",
-        "title": "Pequeños Cambios, Gran Impacto",
-        "description": "Con solo un 5% más de retención, tus ganancias pueden subir hasta un 95%. La lealtad sí se nota en la caja."
+        "title": "Los clientes frecuentes gastan 67% más",
+        "description": "Un cliente que regresa vale mucho más que uno nuevo. La lealtad convierte visitas en ingresos."
       },
       {
         "image": "/images/woman laid back in spa.webp",
-        "title": "Más Visitas, Más Ventas",
-        "description": "Los negocios con herramientas de lealtad ven hasta un 40% más de visitas recurrentes. Dale a tu cliente una razón para volver."
+        "title": "El 85% quiere un programa de lealtad",
+        "description": "Tus clientes ya buscan una razón para volver. Dales una."
       }
     ]
   }
